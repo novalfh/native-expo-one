@@ -36,6 +36,6 @@ export default function Insight() {
             data={data}
             renderItem={({item}) => <Text>{item.name}</Text>}
             keyExtractor={(item) => item.id}/> */}
-        <Link href='/' className='bg-cyan-300'>Home</Link>
+        <Link href='/' className='bg-cyan-300'>Come Bck Home</Link>
     </View>)
 }
